@@ -11,12 +11,14 @@ from api.serializers import MovieSerializer, RatingSerializer, UserSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
+    "User ViewSet: Create, Read, Update, Delete"
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [ AllowAny, ]
 
 
 class MovieViewSet(viewsets.ModelViewSet):
+    "Movie ViewSet: Create, Read, Update, Delete"
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
     authentication_classes = [ TokenAuthentication, ]
@@ -51,6 +53,7 @@ class MovieViewSet(viewsets.ModelViewSet):
 
 
 class RatingViewSet(viewsets.ModelViewSet):
+    "Rating ViewSet: Create, Read, Update, Delete"
     queryset = Rating.objects.all()
     serializer_class = RatingSerializer
     authentication_classes = [ TokenAuthentication, ]
