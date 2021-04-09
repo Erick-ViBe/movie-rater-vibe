@@ -30,7 +30,7 @@ Movie Rater API with users and rating stars management, with tests and documenta
 ## Setup
 1. Clone and enter the repository:\
 `git clone https://github.com/Erick-ViBe/movie-rater-vibe.git`\
-`cd Todos-RESTAPI`
+`cd movie-rater-vibe`
 
 2. Create and activate virtual environment:\
 `python3 -m venv env`\
