@@ -1,6 +1,9 @@
 # Movie Rater API
 Movie Rater API with users and rating stars management, with tests and documentation
+
 > Python-DjangoRestFramework
+
+API link: https://movie-rater-vibe.herokuapp.com/
 
 ## Table of contents
 * [Technologies](#technologies)
